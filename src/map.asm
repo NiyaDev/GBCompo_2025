@@ -34,7 +34,7 @@ generate_map_simple::
   ret
 
 
-;;
+;; Coverts map daat to tiles for display
 set_map_tiles::
   ld hl, _SCRN0
   ld de, map
