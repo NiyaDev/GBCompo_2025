@@ -16,6 +16,9 @@ New items found are either weak weapons to replace broken ones or ingredients to
 - Start menu
 - Gameplay
   - Generate initial map
+    - Each floor has a ladder to next floor
+  - Enemies
+    - Spawning
   - Movement
   - Combat
 
