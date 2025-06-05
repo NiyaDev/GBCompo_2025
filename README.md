@@ -19,6 +19,7 @@ New items found are either weak weapons to replace broken ones or ingredients to
     - Each floor has a ladder to next floor
   - Enemies
     - Spawning
+    - Basic AI
   - Movement
   - Combat
 
