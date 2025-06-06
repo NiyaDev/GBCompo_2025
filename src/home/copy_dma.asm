@@ -4,7 +4,7 @@ section "copy_dma", ROM0[$0080]
 ; Destroys - a, b, c, hl
 ; Size     - 10b
 copy_dma::
-  ld c, _HRAMSTART
+  ld c, $80
   ld b, 10
   ld hl, dma_data
 
