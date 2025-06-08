@@ -73,7 +73,8 @@ db $FE,$FE, $02,$02, $FE,$FE, $00,$00
 .end
 
 cross_temp::
-db $10,$0F,$0E,$0D
+db $10,$0F
+db $0E,$0D
 .end
 
 test_map::

@@ -1,5 +1,7 @@
 
 ;; Generate basic map
+; Destroys - a, b, c, hl
+; Size     - b
 generate_map_simple::
   ld hl, map
   ld bc, (MAP_SIZE_WIDTH * MAP_SIZE_HEIGHT)
@@ -35,6 +37,8 @@ generate_map_simple::
 
 
 ;; Coverts map daat to tiles for display
+; Destroys - ALL
+; Size     - b
 set_map_tiles::
   ld hl, _SCRN0
   ld de, map
@@ -113,4 +117,5 @@ set_map_tiles::
   or c
   jp nz, .loop
 
+  ret
 
